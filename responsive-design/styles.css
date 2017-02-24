@@ -47,6 +47,17 @@
   background-color: #C8C6FA;
 }
 
+.header {
+  height: auto;
+  justify-content: inherit;
+  align-items: inherit;
+}
+
+.photo {
+  width: 100%;
+  display: block;
+}
+
 /* Mobile styles */
 @media only screen and (max-width: 400px) {
   body {
@@ -85,4 +96,9 @@
   .content {
     order: 2;
   }
+}
+
+.illustration img {
+  width: 100%;
+  display: block;
 }
